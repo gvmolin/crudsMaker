@@ -1,0 +1,35 @@
+@import "./app-variables.scss";
+
+$headerPaddingValue: 2vw;
+
+.container{
+    background-color:$color6;
+    height: $headerSize;
+    display: flex;
+    padding: 0 $headerPaddingValue;
+    font-weight: 600;
+    margin-bottom: 2vh;
+    border-radius: $defaultRadius;
+
+    .cardBody{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logoContainer{
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    h1,h2,h3,h4,h5,p{
+        color: $color1;
+    }
+
+    h1{
+        font-size: 5vh;
+        margin: 0;
+        padding: 0;
+    }
+}
